@@ -1,0 +1,29 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "homepage": "https://jupinheiru.github.com/MyPortfolio",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6"
+  }
+}
