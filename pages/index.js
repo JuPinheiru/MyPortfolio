@@ -62,13 +62,13 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white'>
 
               <div className='hover:text-teal-600'>
-              <a target='_blank' href='https://github.com/JuPinheiru'>
+              <a target='_blank' rel="noreferrer" href='https://github.com/JuPinheiru'>
               <AiOutlineGithub />
               </a>
               </div>
 
               <div className='hover:text-teal-600'>
-              <a target='_blank' href='https://www.linkedin.com/in/julio-cesar-pinheiro-da-silva-0b6b70b7/'>
+              <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/julio-cesar-pinheiro-da-silva-0b6b70b7/'>
                 <AiFillLinkedin />
                 </a>
               </div>
